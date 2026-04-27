@@ -17,5 +17,13 @@
     "en_on_tl": 70.59,
     "en_on_nl": 61.41
   },
-  "test_generate": "AttributeError(\"module 'numpy.random' has no attribute 'choices'\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_3203/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_3203/2957777135.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_3203/3469091776.py\", line 24, in generate\n    next_char = np.random.choices(suffixes, weights=prob_of_suf, k=1)[0]\n                ^^^^^^^^^^^^^^^^^\nAttributeError: module 'numpy.random' has no attribute 'choices'. Did you mean: 'choice'?\n"
+  "test_generate": {
+    "english_2_gram": "I amell1Gige omyo & he'",
+    "english_3_gram": "I amebompirs ans appree",
+    "english_4_gram": "I Lover. Zo Are froming #",
+    "spanish_2_gram": "Soy ' Dusos qups  en c",
+    "spanish_3_gram": "Soy ensanta oto el 200",
+    "french_2_gram": "Je suis jeitpu s a male s:",
+    "french_3_gram": "Je suistreil Her lon in vs"
+  }
 }
